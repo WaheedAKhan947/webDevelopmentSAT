@@ -1,0 +1,12 @@
+.image{
+    height: 1000px;
+    width: 1000px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDMmNiQfjyvnfv2zukZikyhcGv0XUgwBBo2Q&s);
+    background-size: cover;
+    background-repeat:repeat;
+  
+}
+body{
+    display: flex;
+    justify-content: center;
+}
