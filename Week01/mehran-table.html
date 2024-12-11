@@ -4,12 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML TABLE</title>
+
 </head>
+<style>
+    table{
+        width: 100vw;
+        height: 50vh;
+        border: 2px solid black;
+
+
+    }
+    tr, td{
+        border: 2px solid black;
+    }
+    th{
+        border: 2px solid black;
+        color: red;
+        background-color: aqua;
+    }
+    .heading{
+        background-color: blueviolet;
+        color: black;
+        font-weight: 800;
+        font-size: 1.2em;
+
+    }
+    tr{
+        background-color: rgb(179, 173, 173);
+        color: black;
+        font-weight: bolder;
+    }
+
+</style>
 <body>
   
-  <table border="1" style="width: 100vw;">
+  <table >
     <tr>
-      <th colspan="3"><H1>Criket</H1></th>
+      <th colspan="3" class="heading"><H1 >Criket</H1></th>
     </tr>
     <tr>
         <th>S NO</th>
