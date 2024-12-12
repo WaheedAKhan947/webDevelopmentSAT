@@ -1,0 +1,47 @@
+.image{
+    height: 1000px;
+    width: 1000px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDMmNiQfjyvnfv2zukZikyhcGv0XUgwBBo2Q&s);
+    background-size: cover;
+    background-repeat:repeat;
+  
+}
+/* body{
+    display: flex;
+    justify-content: center;
+} */
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="munsif_form.css">
+</head>
+<body>
+    <form style="height: 500px; width: 500px; border: 2px solid black; border-radius: 10px; text-align: center;padding-top: 30px;">
+        <label for="text">Enter your name</label>
+       <input style="background-color: rgb(201, 222, 243);" type="text" name="text" placeholder="Enter youe name"> <br><br>
+       <label for="text">Enter your password</label>
+       <input style="background-color: rgb(201, 222, 243);" type="password" name="text" placeholder="Enter youe password"> <br><br>
+        <div>
+        <div>
+            <label for="text"> Enter  your  age</label>
+            <input style="background-color: rgb(201, 222, 243);" type="number" name="text" placeholder="Enter your age"></div>
+            <br>
+     
+        <input type="radio" name="gender" value="male">male
+        <input type="radio" name="gender" value="f-male">f-male
+        <input type="radio" name="gender" value="s-male">s-male <br><br>
+       <div style="display: flex; align-items: center; justify-content: center; gap: 10px;"> <label for="text">Enter your address</label>
+      <textarea name="address" id="" placeholder="Enter your address"></textarea></div> <br>
+        <select>
+            <option value="">php</option>
+            <option value="">html</option>
+            <option value="">css</option>
+        </select><br><br>
+        <input type="submit">
+    </form>
+
+</body>
+</html> -->
