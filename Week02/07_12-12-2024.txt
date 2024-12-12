@@ -1,0 +1,38 @@
+Cascading:
+
+Determines how styles are applied when multiple rules target the same element.
+Order: Inline styles > IDs > Classes > Elements.
+Specificity:
+
+When two div elements have the same color, the rule with higher specificity will be applied.
+Inline styles > IDs > Classes > Element selectors.
+Inheritance:
+
+Some properties are naturally inherited, like text-related properties (color, font-family).
+Keywords:
+inherit: Forces inheritance from the parent element.
+initial: Resets to the default value defined by CSS.
+unset: Acts as inherit for inherited properties and initial otherwise.
+!important:
+
+Overrides all other rules, regardless of specificity.
+Should be used sparingly for debugging or critical overrides.
+Overflow:
+
+Controls content overflow:
+hidden: Clips overflowing content.
+scroll: Adds scrollbars.
+visible: Default, content spills outside.
+Object-Fit (for images/videos):
+
+Defines how media fits in its container.
+cover: Maintains aspect ratio, fills container, might crop.
+contain: Fits entirely within the container.
+fill: Stretches to fill, might distort.
+Debugging CSS:
+
+Use browser Inspect tools to view and modify styles in real time.
+Form Task:
+
+Create a simple form with fields, buttons, and apply styling.
+Test and debug using the concepts above.
