@@ -1,0 +1,17 @@
+DOM | load html then css | 
+
+Units | relative and absolute units
+
+%: relative to the parent, em, rem, vh, vw  |  px, cm, mm, points
+
+Box Model ,  content, padding, border, margin 
+
+list-style-type, list-style-position 
+
+border-collapse: collapse; in Table
+
+background Shorthand | font shorthand | border shorthand | margin padding	
+
+Text-Indentation | letter-spacing | word-spacing
+
+Styling the table task.

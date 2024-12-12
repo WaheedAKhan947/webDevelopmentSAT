@@ -1,0 +1,10 @@
+type of website
+static and dynamic websites
+
+Frontend | backend  | database  for example whatsapp
+
+html: skeleton  |  Css : styling and shape  | Functionality : JavaScript  |  DataBase: memory | Backend : Server  | Domain : Unique name 
+
+24/7 live ? server live not in local computer
+
+Git and github
