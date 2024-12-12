@@ -1,0 +1,74 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+ display: flex;
+ justify-content: center;
+
+
+}
+
+form{
+  max-width: 500px;
+  margin: 50px auto;
+  background:linear-gradient(-40deg , red , blue);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);   
+  color: white; 
+}
+
+h2{
+  text-align: center;
+  padding: 12px;
+  font-weight: 900;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+form input[type="radio"] {
+  margin: 17px;
+  transform: scale(1.8)
+  
+}
+
+span{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+form label{
+  font-size: 25px;
+  margin-bottom: 4px;
+
+}
+
+form label + input[type="radio"] {
+  margin-left: 20px;
+
+}
+
+form button{
+  width: 100%;
+  background-color: #004792;
+  color: white;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 16px;
+  
+}
+
+form button:hover {
+  background-color: #0056b3;
+}

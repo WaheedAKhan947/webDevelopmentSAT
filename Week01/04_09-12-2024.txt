@@ -1,0 +1,15 @@
+Forms <form> | methods=''  | action=''
+
+Input , type, name, value
+
+type: text, password, radio, checkbox, file , submit, reset, image
+
+textarea col, rows
+
+select | option
+
+Fieldset and legend (optional)
+
+Structure of site <header> <Nav> <main> <section> <article> <aside> <footer>
+
+Creating a form and pushing to the github.
