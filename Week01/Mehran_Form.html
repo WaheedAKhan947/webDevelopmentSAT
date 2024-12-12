@@ -4,16 +4,86 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration Form</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #000000;
+      }
+      form {
+        border: 1.5px solid black;
+
+        border-radius: 8px;
+        padding: 20px;
+        margin: 40px;
+        max-width: 500px;
+        background-color: #81b3cf;
+      }
+      h1 {
+        text-align: center;
+        color: #303030;
+        margin-bottom: 20px;
+      }
+
+      input[type="radio"] {
+        margin-right: 5px;
+      }
+      fieldset {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 10px;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+      legend {
+        font-weight: bold;
+        color: #555;
+      }
+      #button {
+        background-color: #0008f6;
+        color: #fff;
+        border: none;
+        padding: 16px 15px;
+        font-size: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        width: 100%;
+      }
+      #button:hover {
+        background-color: #0056b3;
+      }
+      input[type="text"],
+      input[type="number"],
+      select {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 12px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 17px;
+      }
+      input[type="radio"] {
+        margin: 17px;
+        transform: scale(1.2);
+      }
+      label {
+        font-size: 25px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Rigistration Form</h1>
-
     <form action="">
+      <h1>Rigistration Form</h1>
       <label for="Name"> Enter your name</label>
-      <input type="text" value="Enter your name" /> <br />
+      <input type="text" placeholder="Enter your name" /> <br />
 
       <label for="Age">Enter your age</label>
-      <input type="number" name="value" value="age" /><br />
+      <input type="number" name="age" placeholder="Enter your age" /><br />
 
       <label for="age">Select a course</label>
       <select name="selct">
@@ -23,15 +93,16 @@
       </select>
       <br />
 
-      <label for="gender">gender</label>
-      <input type="radio" value="gender" name="gender" />male
+      <label for="gender">Enter Your Gender :</label>
+      <input type="radio" value="gender" name="gender" />Male
       <input type="radio" value="gender" name="gender" />Female <br />
 
       <fieldset>
         <legend>address</legend>
         <textarea name="" id="" cols="30" rows="10"></textarea>
-      </fieldset> <br>
-      <input type="button" value="Submit">
+      </fieldset>
+      <br />
+      <input id="button" type="button" value="Submit" />
     </form>
   </body>
 </html>
