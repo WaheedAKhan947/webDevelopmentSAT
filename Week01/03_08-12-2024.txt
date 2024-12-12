@@ -1,0 +1,25 @@
+type attribute in list
+
+Nested List
+
+anchor tag : <a>, href, target=_blank
+
+Img:  alt, src, width, height
+
+video: src, width, autoplay, controls, loop, muted, poster=, 
+
+iframe: src, frameborder, width, height 
+
+Row and colum
+
+table: thead, tbody, tfoot, tr, th, td, rowspan, colspan"2"
+
+Cricket Score Card table
+
+Structure of site <header> <Nav> <main> <section> <article> <aside> <footer>
+
+Sementic and non sementic tag
+
+Block level elements and inline elements.	
+
+GitHub: Creating a branch. Code Push

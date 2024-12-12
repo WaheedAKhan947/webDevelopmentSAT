@@ -1,0 +1,21 @@
+HTML revising and quiz
+
+Cascading Style Sheet
+
+property: value | defined and predefined 
+
+Linking CSS, three types
+
+CSS Selectors
+
+pseudo-class selector p:hover
+
+pseudo-element selector::first line
+
+Color : RGB (intinsity , Hex value)
+
+background-color, background-image, background-repeat. background-Attachment
+
+Fonts | Text-align, text-Transform, text-decoration, text-shadow
+
+General: Problem solving skills | Problem Identification  | research methodologies | Chatgpt | Debugging skills 
