@@ -1,0 +1,36 @@
+table{
+    font-size: x-large;
+    width:30%;
+    text-align: center;  
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top:  5%;
+    margin-left:  5%;
+    border: 2px red solid;
+    border-radius: 5%;
+
+}
+
+th{
+    background-color: black;
+    color: white;
+    
+}
+
+.fir_row{
+    background-color: bisque;
+}
+
+.sec_row{
+    background-color: burlywood;
+}
+
+.thr_row{
+    background-color: coral;
+}
+
+.four_row{
+    background-color: darkseagreen;
+}
