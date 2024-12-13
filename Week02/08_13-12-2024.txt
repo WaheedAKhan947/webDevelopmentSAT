@@ -1,0 +1,25 @@
+Responsiveness
+
+Layout 
+
+Normal flow
+
+Display
+
+Float : Right left none
+
+Position
+
+Static (default) absolute, relative
+
+top, right, left
+
+Fixed 
+
+sticky (mix of fixed and relitaive)
+
+Flexbox 
+
+Grid
+
+Media query
