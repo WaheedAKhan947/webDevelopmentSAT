@@ -1,0 +1,61 @@
+.containor{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    border: 2px solid black
+}
+.header{
+    height: 120px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mane-body{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav{
+    height: 200px;
+    width: 120px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body{
+    height: 200px;
+    width: 260px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aside{
+    height: 200px;
+    width: 120px;
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    height: 90px;
+    width: 100%;
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    height: 90px;
+    width: 100%;
+    background-color: darkgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
