@@ -25,10 +25,10 @@ h2{
   font-weight: 900;
 }
 
-form input[type="text"],
-form input[type="number"],
-form select,
-form textarea {
+input[type="text"],
+input[type="number"],
+select,
+textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
