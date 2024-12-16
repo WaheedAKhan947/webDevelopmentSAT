@@ -1,0 +1,13 @@
+Flex box
+
+Normal flow (block) vs display: Flex
+
+Main-axis, cross-axis
+
+Flex-direction : row,column, column-reverse, row-reverse
+
+justify-content: center, flex-start. flex end, space-between, space-around : Main-axis
+
+Align-items: flex-start, flex-end, stretch, baseline : Cross axis.
+
+align-self: Stretch, for child elements
