@@ -1,0 +1,42 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: cadetblue;
+    border: 2px solid black;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    align-items: center;
+
+}
+.bodybox{
+    display: flex;
+}
+.box1{
+    width: 25%;
+    height: 200px;
+    background-color: aqua;
+}
+.box2{
+    width: 50%;
+    height: 200px;
+   background-color: blueviolet;
+
+}
+.box3{
+    width: 25%;
+    height: 200px;
+    background-color: brown;
+}
+.about{
+    height: 100px;
+    width: 250px;
+    background-color: cadetblue;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: bisque;
+}
