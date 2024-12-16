@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color:#87CEEB;
+    color: white;
+    text-align: center;
+    
+}
+.header{
+    width: 100vw;
+    height: 15vh;
+    background-color:#80a2db;
+    border: 2px black solid;
+    
+}
+.body{
+    display: flex;
+}
+.box1{
+    width: 20vw;
+    height: 40h;
+    background-color:#FF7F50;
+    border: 2px black solid;
+}
+.box2{
+    width: 60vw;
+    height:40vh;
+    background-color: #DAA520;
+    border: 2px black solid;
+}
+.box3{
+    width: 20vw;
+    height: 40h;
+    background-color: #228B22;
+    border: 2px black solid;
+}
+.about{
+    width: 100vw;
+    height: 30vh;
+    background-color: #c76f6f;
+    border: 2px black solid;
+
+}
+.footer{
+    width: 100vw;
+    height:20vh;
+    background-color: rgb(196, 224, 68);
+    border: 2px black solid;
+    color: black;
+}
