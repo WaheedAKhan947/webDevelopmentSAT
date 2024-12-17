@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containor{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    padding-top:30px ;
+}
+.child1{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    display: inline-block;
+    margin-left:40px;
+}
+.child2{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(255, 0, 128);
+    display: inline-block;
+    position:relative;
+    margin-left: 20px;
+}
+.child3{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(255, 217, 0);
+   position: relative;
+   margin: 20px 125px;
+}

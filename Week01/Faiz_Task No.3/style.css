@@ -1,0 +1,8 @@
+.faiz {
+    width: 1800px;
+    height: 1800px;
+    background-image: url(home-foodpanda-apps.webp);
+    /* background-size: cover;  */
+    background-repeat: repeat-y; 
+    border: 2px solid black;
+}
