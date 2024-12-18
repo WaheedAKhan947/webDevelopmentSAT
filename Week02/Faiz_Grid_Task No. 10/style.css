@@ -1,11 +1,12 @@
 .container{
     display: grid;
     height: 100vh;
+    border: 2px black solid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 2fr 2fr 2fr 2fr ;
     grid-template-areas: "box1 sec_box1 trd_box1 four_box1 "
-                          "box2 sec_box2 trd_box1 four_box1"
-                           "box3 sec_box3  trd_box2 four_box1"
+                          "box2 sec_box1 trd_box1 four_box1"
+                           "box3 sec_box2  trd_box2 four_box1"
                             "box4 sec_box3 trd_box2 four_box1";
                             gap: 0.5%;
                           
