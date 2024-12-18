@@ -1,0 +1,53 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr ;
+    grid-template-areas: "box1 sec_box1 trd_box1 four_box1 "
+                          "box2 sec_box2 trd_box1 four_box1"
+                           "box3 sec_box3  trd_box2 four_box1"
+                            "box4 sec_box3 trd_box2 four_box1";
+                            gap: 0.5%;
+                          
+}
+.box1{
+    background-color: aqua;
+    grid-area: box1;
+}
+.box2{
+    background-color: rgb(40, 82, 82);
+    grid-area: box2;
+}
+.box3{
+    background-color: rgb(62, 159, 38);
+    grid-area: box3;
+}
+.box4{
+    background-color: rgb(4, 75, 122);
+    grid-area: box4;
+}
+ 
+.sec_box1{
+    background-color: red;
+    grid-area: sec_box1;
+}
+.sec_box2{
+    background-color: rgb(169, 39, 173);
+    grid-area: sec_box2;
+}
+.sec_box3{
+    background-color: rgb(199, 171, 171);
+    grid-area: sec_box3;
+}
+.trd_box1{
+    background-color: brown;
+    grid-area: trd_box1;
+}
+.trd_box2{
+    background-color: rgb(3, 136, 208);
+    grid-area: trd_box2;
+}
+.four_box1{
+    background-color: rgb(211, 208, 10);
+    grid-area: four_box1;
+}
