@@ -1,0 +1,33 @@
+.container{
+    height: 95vh;
+    background-color: aqua;
+    display: grid;
+    grid-area: "header header header"
+                 "nav body article"
+                 "about about about "
+                 " footer footer footer";
+}
+.header{
+    grid-area: header;
+    background-color: black;
+}
+.nav{
+    grid-area: nav;
+    background-color: red;
+}
+.body{
+    grid-area: body;
+    background-color: bisque;
+}
+.article{
+    grid-area: article;
+    background-color: cadetblue;
+}
+.about{
+    grid-area: about;
+    background-color: chartreuse;
+}
+.footer{
+    grid-area: footer;
+    background-color: cyan;
+}
