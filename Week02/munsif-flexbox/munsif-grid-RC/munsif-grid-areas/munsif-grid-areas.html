@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="munsif-grid-areas.css">
+    <style>
+        .main{
+
+        }
+        .containor{
+            height: 95vh;
+            display: grid;
+            background-color: aqua;
+            grid-template-areas: "header header header"
+                                  "navbar body aside"
+                                  "navbar body aside"
+                                   "about about about"
+                                   "footer footer footer";
+        }
+        .header{
+            grid-area: header;
+            background-color: blue;
+        }
+        .navbar{
+            grid-area: navbar;
+            background-color: brown;
+        }
+        .body{
+            grid-area: body;
+            background-color: darkmagenta;
+        }
+        .aside{
+            grid-area: aside;
+            background-color: darkturquoise;
+        }
+        .about{
+            grid-area: about;
+            background-color: forestgreen;
+        }
+        .footer{
+            grid-area: footer;
+            background-color: fuchsia;
+        }
+    </style>
+</head>
+<body>
+    <div class="containor">
+        <div class="header">header</div>
+            <div class="navbar">Navbar</div>
+            <div class="body">Body</div>
+            <div class="aside">Aside</div>
+        <div class="about">About</div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>
