@@ -1,0 +1,7 @@
+Npm : Node installation 
+
+installing node packages
+
+npm init -y
+
+yarn 

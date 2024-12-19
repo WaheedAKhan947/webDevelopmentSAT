@@ -1,0 +1,12 @@
+Why flexbox? grid? 
+
+responsiveness!!! less code more responsiveness
+
+Bootstrap
+
+Linking Bootstrap
+
+Component usage and classes usage
+
+
+Navbar and Service page in Bootstrap Task
