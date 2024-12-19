@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    background-color: aqua;
+    height: 30vh;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blue; */
+    height: 40vh;
+}
+.Nav{
+    display: flex;
+    background-color: brown;
+    width: 20%;
+}
+.body{
+    display: flex;
+    background-color: rgb(29, 21, 25);
+    width: 50%;
+}
+.aside{
+    display: flex;
+    background-color: rgb(255, 217, 0);
+    width: 30%;
+}
+.about{
+    display: flex;
+    background-color: rgb(255, 0, 128);
+    height: 20vh;
+}
+.footer{
+    display: flex;
+    background-color: rgb(255, 217, 0);
+    height: 10vh;
+}

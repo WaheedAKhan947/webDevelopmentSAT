@@ -1,0 +1,26 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    height: 50px;
+    border-radius: 40px;
+}
+table {
+    width: 10%;
+    margin: 20px;
+}
+.tr1{
+    background-color: aqua;
+}
+.tr2{
+    background-color: bisque;
+}
+.tr3{
+    background-color: aquamarine;
+}
+.tr4{
+    background-color: burlywood;
+}
+.tr5{
+    background-color: cadetblue;
+}
