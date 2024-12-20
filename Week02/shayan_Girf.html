@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        .container {
+            display: grid;
+            height: 700px;
+            gap: 15px;
+            border: 3px dashed green;
+            padding: 10px;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .col1 {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 4px
+        }
+
+        .item1 {
+            background-color: rgb(156, 156, 156);
+            border: 2px solid black;
+        }
+        
+
+        .col2 {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+        }
+
+        .item2 {
+            background-color: rgb(37, 32, 68);
+            border: 2px solid black;
+
+        }
+
+        .col3 {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+
+        .item3 {
+            background-color: rgb(51, 61, 29);
+            border: 2px solid black;
+
+        }
+
+        .col4 {
+            grid-template-rows: 1fr;
+            background-color: rgb(73, 72, 72);
+            border: 2px solid black;
+
+        }
+
+     
+       
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col1">
+            <div class="item1"></div>
+            <div class="item1"></div>
+            <div class="item1"></div>
+            <div class="item1"></div>
+        </div>
+        <div class="col2">
+            <div class="item2"></div>
+            <div class="item2"></div>
+            <div class="item2"></div>
+        </div>
+        <div class="col3">
+            <div class="item3"></div>
+            <div class="item3"></div>
+        </div>
+        <div class="col4"></div>
+    </div>
+</body>
+
+</html>
