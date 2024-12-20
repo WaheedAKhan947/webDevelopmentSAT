@@ -1,3 +1,17 @@
+JavaScript
+
+high level, interpreted,  curly bracket syntex
+
+Interpreter vs complier
+
+browser language
+
+nodejs : server/computer
+
+Easy to learn, 1 language for all, biggest community, alot of frameworks
+
+First program in js
+
 Npm : Node installation 
 
 installing node packages
