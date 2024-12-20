@@ -1,0 +1,37 @@
+    .containor{
+            display: grid;
+            height: 600px;
+            background-color: aqua;
+            grid-template-rows: 1fr 2fr 1fr 1fr;
+            color: white;
+    
+        }
+        .header{
+            background-color: dimgrey;  
+            text-align: center;      
+        }
+        .main{
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+        }
+        .navbar{
+            background-color: brown;
+            text-align: center;
+        }
+        .body{
+            background-color: blueviolet;
+            text-align: center;
+        }
+        .aside{
+            background-color: chartreuse;
+            text-align: center;
+        }
+        .about{
+            background-color: darkcyan;
+            text-align: center;
+        }
+        .footer{
+            background-color: deeppink;
+            text-align: center;
+            
+        }

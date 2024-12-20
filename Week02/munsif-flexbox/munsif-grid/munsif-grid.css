@@ -9,7 +9,7 @@
 .box4 {
 
     display: grid;
-    grid-column-end: 4;
+    grid-column-start: 4;
     grid-column-end: 5;
     grid-template-rows: 1fr;
     background-color: rgb(14, 158, 33);
@@ -17,7 +17,7 @@
 
 .box3 {
     display: grid;
-    grid-column-end: 3;
+    grid-column-start: 3;
     grid-column-end: 4;
     grid-template-columns: 1fr;
     gap: 10px;
@@ -28,7 +28,7 @@
 }
 .box2{
     display: grid;
-    grid-column-end: 2;
+    grid-column-start: 2;
     grid-column-end: 3;
     grid-template-columns: 1fr;
     gap: 10px;
@@ -38,7 +38,7 @@
 }
 .box1{
 display: grid;
-    grid-column-end: 1;
+    grid-column-start: 1;
     grid-column-end: 2;
     grid-template-columns: 1fr;
     gap: 10px;
