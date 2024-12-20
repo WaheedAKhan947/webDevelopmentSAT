@@ -1,0 +1,23 @@
+
+body{
+    
+    padding-top: 100px; 
+}
+
+.para{
+    height: 225px;
+    width: 800px;
+    display:flex;
+}
+.icon{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+}
+.paragraph{
+    margin-left: 70px;
+}
+.para2{
+    height: 200px;
+    width: 800px;
+}
