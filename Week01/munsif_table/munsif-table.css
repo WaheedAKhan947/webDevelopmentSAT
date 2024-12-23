@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.table-box{
+    height: 500px;
+    width: 800px;
+    background-color: rgb(74, 120, 145);
+    text-align: center;
+    border-radius: 16px;
+
+}
+table{
+    height: 350px;
+    width: 600px;
+    margin-left: 100px;
+}
+.head{
+    color: yellow;
+    background-color: rgb(41, 50, 63);
+}
+.data{
+    color: white;
+    background-color: rgb(50, 100, 133);
+}
+.data2{
+    color: white;
+    background-color:rgb(53, 67, 87) ;
+}
+.data3{
+    color: rgb(255, 94, 0);
+    background-color: rgb(6, 92, 92);
+}
+h1{
+    color: rgb(59, 13, 32);
+}
+
