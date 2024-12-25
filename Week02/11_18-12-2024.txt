@@ -1,0 +1,38 @@
+Grid structure.
+
+Grid Template Areas
+
+Defines named areas in a grid layout for easier item placement.
+Example: .container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "sidebar content content";
+}
+.header { grid-area: header; }
+.sidebar { grid-area: sidebar; }
+.content { grid-area: content; }
+
+Grid Row and Column
+
+Grid Column
+
+Definition: Specifies which columns an item spans.
+
+Example
+
+.item {
+  grid-column: 1 / 3; /* Start at column 1 and span to column 3 */
+}
+
+Grid Row
+
+Definition: Specifies which rows an item spans.
+
+Example
+.item {
+  grid-row: 1 / 3; /* Start at column 1 and span to column 3 */
+}
+
+align self / justify self
+place item: 
