@@ -1,0 +1,39 @@
+.containor{
+    height: 500px;
+    border: 2px solid black
+}
+.header{
+    height: 20%;
+    background-color: blue;
+   text-align: center;
+}
+.mane-body{
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    background-color: brown;
+    flex: 1;
+    text-align: center;
+}
+.body{
+    background-color: white;
+    flex: 3;
+    text-align: center;
+}
+.aside{
+    background-color: chartreuse;
+  flex: 1;
+  text-align: center;
+}
+.about{
+    height: 20%;
+    background-color: violet;
+    text-align: center;
+}
+.footer{
+    height: 20%;
+    background-color: darkgreen;
+    text-align: center;
+}

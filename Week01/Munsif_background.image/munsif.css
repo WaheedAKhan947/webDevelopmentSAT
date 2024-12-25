@@ -6,6 +6,10 @@
     background-repeat:repeat;
   
 }
+body{
+    display: flex;
+    justify-content: center;
+}
 /* body{
     display: flex;
     justify-content: center;
