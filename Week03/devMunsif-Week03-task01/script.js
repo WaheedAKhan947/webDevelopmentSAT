@@ -1,3 +1,8 @@
+
+   
+   
+   
+   
 // let age= prompt("enter your age");
 // if(age<18){
 //     console.log("you are not eligible for licence ")
@@ -45,17 +50,18 @@
 
 
 
-let marks=prompt("Please enter your marks")
-if(marks>=90){
-    alert("Your grade is : A+")
-}else if(marks>=80){
-    alert("Your grade is : A")
-}else if(marks>=70){
-    alert("Your grade is : B")
-}else if(marks>=60){
-    alert("Your grade is : C")
-}else if(marks>=50 && marks<=40){
-    alert("Your grade is : D")
-}else{
-    alert("You are fail")
-}
+// let marks=prompt("Please enter your marks 0-100")
+// if(marks>=90){
+//     alert("Your grade is : A+")
+// }else if(marks>=80){
+//     alert("Your grade is : A")
+// }else if(marks>=70){
+//     alert("Your grade is : B")
+// }else if(marks>=60){
+//     alert("Your grade is : C")
+// }else if(marks>=50){
+//     alert("Your grade is : D")
+// }else{
+//     alert("You are fail")
+// }
+
