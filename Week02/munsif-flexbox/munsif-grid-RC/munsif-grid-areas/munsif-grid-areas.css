@@ -1,0 +1,40 @@
+
+.containor {
+    height: 95vh;
+    display: grid;
+    background-color: aqua;
+    grid-template-areas: "header header header header"
+        "navbar body body aside"
+        "navbar body body aside"
+        "about about about about"
+        "footer footer footer footer";
+}
+.header {
+    grid-area: header;
+    background-color: blue;
+}
+
+.navbar {
+    grid-area: navbar;
+    background-color: brown;
+}
+
+.body {
+    grid-area: body;
+    background-color: darkmagenta;
+}
+
+.aside {
+    grid-area: aside;
+    background-color: darkturquoise;
+}
+
+.about {
+    grid-area: about;
+    background-color: forestgreen;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: fuchsia;
+}
