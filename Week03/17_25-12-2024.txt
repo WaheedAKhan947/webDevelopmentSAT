@@ -1,0 +1,42 @@
+Swtich Cases
+
+switch ( condition){
+case '1':
+	statement 1;
+	break;
+case '2':
+	statement 2;
+	break;
+default:
+	statement;
+}
+
+
+why loop / iteration?
+
+for statement
+for (let i=0; i<10; i++){
+}
+
+let = 0
+while(){
+i--;
+}
+
+let = 0
+do{
+
+}
+while()
+
+Objects and Arrays
+
+for in: Objects
+for(let key in object){
+(key, object[key])
+}
+
+for of: Array
+for (let key of array){
+	(key)
+}
