@@ -1,0 +1,17 @@
+String
+
+typeof 
+
+Decelaration of string
+
+Concatenating string :  String + String | String + number
+
+String Methods:  Number(paramerter) |  toString() 
+
+Template literal: ` ${} `
+
+Important methods of string
+
+length of string |  Contcatenation of string | spliting a string | character at string
+
+.length,  .indexOf('from'), .slice(4,6),  .toUpperCase(),  .toLowerCase()
