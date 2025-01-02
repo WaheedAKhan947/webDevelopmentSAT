@@ -1,0 +1,32 @@
+Window object: it is browser's object and is automatically created by the browser. It is global object with alot of properties and methods.
+
+Dom: when a web page is loaded, the browser creates a document Object Model of the page.
+
+Window ---> Document ---> Html
+
+window.document
+
+Console.log: Print
+console.dir: prop & methods
+
+Node
+
+ChildNode[0]
+
+document.body.style.background = 'black'
+
+document.getElementById("#unique") // return a value
+
+document.getElementsByClassName("Class")
+
+document.getElementsBytagName("div")
+
+document.querySelector("class/id/tag")
+
+document.querySelectorAll("class/id/tag")
+
+properties:
+tagName: return the tag name
+innerText: return the content of the tag and his children
+innerHTML: return the html and content both
+textContent: return the text content of even the hidden elements
