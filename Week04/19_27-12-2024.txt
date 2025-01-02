@@ -1,0 +1,26 @@
+For Each 
+
+array.forEach((element) =>{
+	console.log(element)
+})
+
+For of
+for (let i of array){
+	console.log(i)
+}
+
+For In
+for (let i in obj){
+	console.log(i, obj[i})
+}
+
+Function()
+
+function Name(parameter){
+	statement 1;
+	statement 2;
+	return ___;
+}
+function(parameter)
+
+let varible = Name(argument)

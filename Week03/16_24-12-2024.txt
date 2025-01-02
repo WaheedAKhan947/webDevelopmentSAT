@@ -1,0 +1,21 @@
+Operators
+
+Binary Operators , Unary Operator, 
+Assignment operator, !=, ==, ===, >, < , <=, >=
+%, ++, --, **
+
+equal and strict equal
+
+Control Flow
+
+Condition Flow
+
+var age= prompt("Enter your age : ");
+if(age< 10){
+	alert("Your age!!")
+}else if (age > 10 && age < 35 ){
+
+} 
+else{
+	alert();
+}
