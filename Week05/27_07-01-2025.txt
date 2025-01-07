@@ -1,0 +1,13 @@
+Higher order array methods
+
+value, index, array
+
+Map(): create a new array by appling some operation on each element.
+
+filter():  filters an array with values that passes a test.
+Syntax:
+newArray = array.filter((a) => {
+	return a<1
+})
+
+reduce(): reduces an array to single value
