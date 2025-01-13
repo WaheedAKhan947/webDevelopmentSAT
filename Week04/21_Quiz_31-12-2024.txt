@@ -1,0 +1,22 @@
+num1 = '2'
+num2 = 6
+sum = num1 + num2
+
+Implicit vs explicit coersion
+
+Types of conversion
+
+String(), Number()
+
+User-defined datatype: 
+
+Objects, 
+dot notation and bracket notation ['name']
+
+
+Array[]
+function()
+
+// DOM
+// document.documentElement
+// document.body.childNodes
