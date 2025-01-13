@@ -1,0 +1,8 @@
+.card{
+    height: 50vh;
+    width: 50%;
+    border: 3px solid black;
+}
+.cardImage{
+    height: 10vh;
+}
