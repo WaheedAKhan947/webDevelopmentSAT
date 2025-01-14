@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(61, 56, 49);
+}
+.form{
+background-color: aquamarine;
+text-align: center;
+border-radius: 15px;
+}
+
+.form-input{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 7vh;
+    flex-wrap: wrap;
+}
+@media (max-width : 1000px) {
+    .form-input{
+        display: flex;
+        padding: 7vh;
+
+    }
+    input{
+        height: 5vh;
+        width: 80%;
+    }
+}
+input{
+    height: 5vh;
+    width: 80%;
+    border-radius: 8px;
+    border: none;
+    margin: 3vh;
+}
+.tital h1{
+    margin: 0%;
+padding-top:3vh ;
+font-weight: 600;
+}
+button{
+    height: 8vh;
+    width: 20vw;
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 3vh;
+}
