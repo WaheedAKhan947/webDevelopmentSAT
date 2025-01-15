@@ -1,11 +1,12 @@
 import './App.css'
-import Form from './components/Form/form'
+import Signin from './components/Form2/Signin'
 
 function App() {
 
   return (
   <div>
-    <Form/>
+    {/* <Form/> */}
+    <Signin />
   </div>
   )
 }

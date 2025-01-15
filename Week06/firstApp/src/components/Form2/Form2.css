@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(177, 167, 154);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+.c1{
+    background-color: aqua;
+    border-radius: 20px;
+    text-align: start;
+    padding: 8vh;
+
+
+}
+input{
+    height: 30px;
+    border-radius: 10px;
+}
+button{
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+}
+.c2{
+    text-align: center;
+    size: 20px;
+}
+.c2 h1{
+    margin-top: 0%;
+    margin-bottom: 15px;
+}
