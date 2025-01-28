@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(26, 26, 250);
+}
+.containor{
+background-color: #FCCC31;
+text-align: center;
+border-radius: 15px;
+}
+.form-input{
+    padding: 7vh;
+    text-align: start;
+}
+h1{
+    margin: 0%;
+}
+input{
+    height: 8vh;
+    border-radius: 8px;
+    border: none;
+    margin: 1vh 0vh;
+    display: flex;
+    font-size: 20px;
+}
+button{
+    margin-bottom: 3vh;
+}
