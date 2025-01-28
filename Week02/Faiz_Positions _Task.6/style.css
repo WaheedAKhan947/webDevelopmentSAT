@@ -1,0 +1,33 @@
+
+.fir_box{
+    width:15vw;
+    height:20vh;
+    background-color: aqua;
+    margin: 5%;
+   position: relative ;
+   border: 2px black solid;
+   top: 5%;
+   
+    
+}
+.sec_box{
+    width:15vw;
+    height:20vh;
+    background-color: rgb(117, 204, 10);
+    border: 2px black solid;
+    margin: 1%;
+    position: relative;
+    left: 300px;
+    bottom:226px;
+}
+.thr_box{
+    width:15vw;
+    height:20vh;
+    background-color: rgb(55, 125, 205);
+    margin: 1%;
+    border: 2px black solid;
+    position: relative;
+    bottom:230px;
+    left: 180px;
+    
+}

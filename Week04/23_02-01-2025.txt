@@ -1,0 +1,26 @@
+Event: the change in the state of an object is known as an Event. (Trigging some action)
+
+Mouse Events(onclick, ondblclick)
+Keyboard events(keypress, keyup, keydown)
+Form events(submit)
+
+
+const button = document.querySelector('button');
+button.addEventListner('click', function(){
+});
+
+Node.event = () {
+	//code here
+}
+
+Named Function :  Functions with a name that can be reused multiple times.
+Function(){
+}
+
+Expression/Anonymous Function: Functions without a name, often assigned to variables or used as arguments.
+let function = function(){
+}
+
+Arrow Function: A modern, concise syntax for writing functions.
+const ArrowFunction = () => {
+}

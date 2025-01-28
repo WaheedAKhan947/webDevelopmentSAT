@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+}
+.pic{
+    width: 17%;
+    height:36vh;
+    background-image: url(faiz.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    margin: 3%;
+    
+
+}
+.discription{
+    width: 60vw;
+    height: auto;
+    margin-left:5%;
+margin-top:6%;
+font-size: large;
+   
+   
+}
+.about_html_css{
+    margin: 5%;
+    margin-top: 10%;
+    width: 80%;
+    font-size: x-large;
+}
+
